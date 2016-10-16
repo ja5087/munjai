@@ -1,0 +1,150 @@
+body {
+  background: #cbeaff;
+  font-family: "Montserrat", "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  height: 100%;
+  display: flex;
+}
+
+html {
+  height: 100%;
+}
+
+.resolutionEditor {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+
+}
+
+.resolutionTextInput {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  min-height: 100px;
+}
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+
+
+.tutorial {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  
+}
+
+.mainPage {
+  display:initial;
+  height: 100%;
+  width: 100%
+}
+
+.tutorialsList {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  background-color: #98c4ec ;
+}
+
+
+
+.tutorialPage {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  float: 'left';
+  height: 70%;
+  width: 50%;
+  flex: 1;
+  min-height: 500px;
+}
+
+.resolution {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
+  word-wrap: break-word;
+  line-height: 1.2;
+  background-color: #b5dbf9;
+}
+
+.headerItem {
+  font: bold 12px 'Open Sans', sans-serif;
+  margin: 10px 10px 10px 10px;
+  text-align: center;
+  align-items: center;
+  justify-content:center;
+  padding: 5px 10px 5px 10px;
+  border: 4px solid;
+  display: inline-flex;
+  flex-direction: row;
+  cursor: pointer;
+  background-color:  #a9bdad;
+}
+
+
+
+#content {
+  height: 100vh;
+  width: 100vw;
+}
+
+
+strong {
+  text-decoration: underline;
+}
+
+
+
+code {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  font-size: 12px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: bold;
+  margin: 0 0 15px;
+  padding: 0;
+}
+
+h1 {
+  border-bottom: 1px solid #ddd;
+  font-size: 2.5em;
+}
+
+h2 {
+  border-bottom: 1px solid #eee;
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+h4 {
+  font-size: 1.2em;
+}
+
+p, ul {
+  margin: 15px 0;
+}
+
+ul {
+  padding-left: 30px;
+}
